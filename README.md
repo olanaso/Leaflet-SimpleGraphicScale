@@ -1,4 +1,4 @@
-# Graphic Scale SGBI Plugin for Leaflet
+# Simple Graphic Scale SGBI Plugin for Leaflet
 
 This is a README file for the `GraphicScaleSGBI` plugin for the Leaflet mapping library. This plugin provides a customizable, easy-to-use graphic scale control for your maps.
 
