@@ -1,4 +1,4 @@
- L.Control.GraphicScaleSGBI = L.Control.extend({
+ L.Control.SimpleGraphicScale = L.Control.extend({
     options: {
         position: "bottomleft",
         updateWhenIdle: false,
@@ -402,6 +402,6 @@ L.Map.addInitHook(function() {
         this.addControl(this.graphicScaleControl)
     }
 });
-L.control.GraphicScaleSGBI = function(options) {
-    return new L.Control.GraphicScaleSGBI(options)
+L.control.SimpleGraphicScale = function(options) {
+    return new L.Control.SimpleGraphicScale(options)
 };
