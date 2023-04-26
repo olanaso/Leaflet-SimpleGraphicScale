@@ -26,7 +26,7 @@ First, include the plugin's CSS and JavaScript files in your HTML file:
 Then, create a new `GraphicScaleSGBI` control and add it to your Leaflet map:
 
 ```javascript
-var scaleControl = new L.Control.GraphicScaleSGBI(options).addTo(map);
+var scaleControl = new L.Control.SimpleGraphicScale(options).addTo(map);
 ```
 
 ## Options
