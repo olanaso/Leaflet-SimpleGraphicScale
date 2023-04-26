@@ -1,6 +1,8 @@
 # Simple Graphic Scale Plugin for Leaflet
 
 This is a README file for the `SimpleGraphicScale` plugin for the Leaflet mapping library. This plugin provides a customizable, easy-to-use graphic scale control for your maps.
+## Demo
+https://olanaso.github.io/Leaflet-SimpleGraphicScale/
 
 ## Features
 
