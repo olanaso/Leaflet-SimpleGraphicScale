@@ -19,8 +19,7 @@ This is a README file for the `GraphicScaleSGBI` plugin for the Leaflet mapping 
 First, include the plugin's CSS and JavaScript files in your HTML file:
 
 ```html
-<link rel="stylesheet" href="path/to/leaflet-control-graphicscale.css" />
-<script src="path/to/leaflet-control-graphicscale.js"></script>
+<script src="path/to/Leaflet-SImpleGraphic-Scale.js.js"></script>
 ```
 
 Then, create a new `GraphicScaleSGBI` control and add it to your Leaflet map:
