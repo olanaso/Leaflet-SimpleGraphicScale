@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet Scale - SGBI</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <style>
+    #map { height: 100vh; }
+    .fas.fa-street-view::before {
+      content: '\f21d';
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+    }
+  </style>
+
+ 
+</head>
+<body>
+  <div id="map"></div>
+
+   <script src="./Plugins-SGBI/scala/Leaflet-scale-SGBI.js"></script>
+  <script>
+
+
+
+    /*===========================PLUGIN=================================================================*/
+
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19
+    }).addTo(map);
+
+    // Agregando el Plugin Scala
+   var GraphicScaleSGBI = L.control.GraphicScaleSGBI({
+    doubleLine: true,
+    color:'blue',
+    fill: 'hollow',
+    background_color_scale:'white',
+    border_radius:'7px',
+    color_label:'red',
+    box_shadow:false,
+        showSubunits: true
+  }).addTo(map);
+
+
+  </script>
+</body>
+</html>
